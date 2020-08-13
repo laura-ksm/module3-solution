@@ -3,24 +3,27 @@ body {
 }
 
 #header-nav {
-    background-color: #44ccd4;
+    background-color: #f5f54c;
     border-radius: 0;
     border: 0;
 }
 
+/*
 #logo-img {
-    background: url('../images/miscellaneous-food.png') no-repeat;
+    background: url('../images/utensils-solid.svg') no-repeat;
     width: 150px;
     height: 150px;
     margin: 10px 15px 10px 0;
+    color: blue;
 }
+*/
 
 .navbar-brand {
     padding-top: 25px;
 }
 
 .navbar-brand h1 { /* Restaurant name */
-    color: white;
+    color: #ff000d;
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
@@ -38,12 +41,12 @@ body {
 }
   
 #nav-list a {
-    color: #3295a8;
+    color: #ff000d;
     text-align: center;
 }
 
 #nav-list a:hover {
-    background: #E7E7E7;
+    background: #fff980;
 }
 
 #nav-list a span {
@@ -51,10 +54,29 @@ body {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #185c69;
+    border: 1px solid #ff000d;
 }
 
 .navbar-header button.navbar-toggle {
     clear: both;
     margin-top: -30px;
+}
+
+.text-center {
+    color: #ff000d;
+}
+
+#blurb {
+    background-color: #f0eb89;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border: 1px solid #b5ac04;
+}
+
+#blurb p {
+    margin: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
 }
